@@ -1,4 +1,4 @@
-# Spring Boot AMQP Producer Sample
+# Spring Boot AMQP Consumer Sample
 
 This sample project is to show how to receive message via Spring Boot AMQP.
 
