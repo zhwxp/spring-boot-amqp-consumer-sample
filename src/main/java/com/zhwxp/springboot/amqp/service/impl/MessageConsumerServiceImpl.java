@@ -13,7 +13,7 @@ public class MessageConsumerServiceImpl implements MessageConsumerService {
 
     @Override
     public void processMessage(Message message) {
-        LOGGER.info("Received message: {}", message.toString());
+        LOGGER.info("Received message: {}", message);
     }
 
 }
