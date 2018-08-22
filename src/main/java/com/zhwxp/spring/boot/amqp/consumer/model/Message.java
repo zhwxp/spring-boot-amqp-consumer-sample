@@ -1,4 +1,4 @@
-package com.zhwxp.springboot.amqp.model;
+package com.zhwxp.spring.boot.amqp.consumer.model;
 
 import java.time.LocalDateTime;
 

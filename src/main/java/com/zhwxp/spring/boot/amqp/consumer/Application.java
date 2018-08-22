@@ -1,4 +1,4 @@
-package com.zhwxp.springboot.amqp;
+package com.zhwxp.spring.boot.amqp.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

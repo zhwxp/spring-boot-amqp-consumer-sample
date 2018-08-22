@@ -1,7 +1,7 @@
-package com.zhwxp.springboot.amqp.service.impl;
+package com.zhwxp.spring.boot.amqp.consumer.service.impl;
 
-import com.zhwxp.springboot.amqp.model.Message;
-import com.zhwxp.springboot.amqp.service.MessageConsumerService;
+import com.zhwxp.spring.boot.amqp.consumer.service.MessageConsumerService;
+import com.zhwxp.spring.boot.amqp.consumer.model.Message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ public class MessageConsumerServiceImpl implements MessageConsumerService {
 
     @Override
     public void processMessage(Message message) {
-        LOGGER.info("Received message: {}", message);
+        LOGGER.info("Receive message: {}", message);
     }
 
 }
